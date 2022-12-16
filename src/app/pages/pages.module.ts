@@ -4,7 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProductComponent } from './product/product.component';
+import { StudentComponent } from './student/student.component';
 import { HomeComponent } from './home/home.component';
 import { StaticModule } from '../static/static.module';
 import { PagesComponent } from './pages.component';
@@ -16,7 +16,7 @@ import { RouterModule } from '@angular/router';
   declarations:[
     DashboardComponent,
     CatalogueComponent,
-    ProductComponent,
+    StudentComponent,
     HomeComponent,
     AboutComponent,
     ContactComponent,
@@ -27,7 +27,7 @@ import { RouterModule } from '@angular/router';
   exports:[
     DashboardComponent,
     CatalogueComponent,
-    ProductComponent,
+    StudentComponent,
     HomeComponent,
     AboutComponent,
     ContactComponent
